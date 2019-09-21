@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency "bootstrap-will_paginate", '0.0.10'
   s.add_dependency "font-awesome-rails", "4.1.0.0"
   s.add_dependency "paperclip", "3.5.3"
-  s.add_dependency 'jquery-rails', "~>3.1"
+  s.add_dependency 'jquery-rails', ">=3.1", "<5.0"
   s.add_dependency 'jquery-turbolinks', "~>2.0"
   s.add_dependency 'turbolinks', "~>2.2"
   s.add_dependency 'sass-rails', "~> 4.0"
